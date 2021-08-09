@@ -9,17 +9,17 @@ var lives = 3
 var score=0;
 function preload(){
   
-  shooterImg = loadImage("assets/shooter_2.png")
-  shooter_shooting = loadImage("assets/shooter_3.png")
+  shooterImg = loadImage("shooter_2.png")
+  shooter_shooting = loadImage("shooter_3.png")
 
-  bgImg = loadImage("assets/bg.jpeg")
-  zombieIMG = loadImage("assets/zombie.png")
-  music1 = loadSound("assets/explosion.mp3")
-  ammoIMG = loadImage("assets/ammo.png")
+  bgImg = loadImage("bg.jpeg")
+  zombieIMG = loadImage("zombie.png")
+  music1 = loadSound("explosion.mp3")
+  ammoIMG = loadImage("ammo.png")
 
-  heart1IMG = loadImage("assets/heart_1.png")
-  heart2IMG = loadImage("assets/heart_2.png")
-  heart3IMG = loadImage("assets/heart_3.png")
+  heart1IMG = loadImage("heart_1.png")
+  heart2IMG = loadImage("heart_2.png")
+  heart3IMG = loadImage("heart_3.png")
 }
 
 function setup() {
